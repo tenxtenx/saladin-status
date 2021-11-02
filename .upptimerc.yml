@@ -25,6 +25,18 @@ sites:
       - 403
   - name: CMS
     url: https://$CMS_API
+  - name: Mass Biker (Staging)
+    url: https://staging-$MASS_BIKER_APP
+  - name: Mass Biker (Production)
+    url: https://$MASS_BIKER_APP
+  - name: Admin Dashboard (Staging)
+    url: https://staging-$ADMIN_APP
+  - name: Admin Dashboard (Production)
+    url: https://$ADMIN_APP
+  - name: Promotion Tool (Staging)
+    url: https://staging-$PROMOTION_TOOL_APP
+  - name: Promotion Tool (Production)
+    url: https://$PROMOTION_TOOL_APP
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
