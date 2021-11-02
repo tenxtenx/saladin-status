@@ -1,31 +1,42 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: tenxtenx # Your GitHub organization or username, where this repository lives
+repo: saladin-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Backend API (Staging)
+    url: https://staging-$BE_API
+  - name: Backend API (Production)
+    url: https://$BE_API
+  - name: Utility API (Staging)
+    url: https://staging-$UTILS_API
+    expectedStatusCodes:
+      - 404
+  - name: Utility API (Production)
+    url: https://$UTILS_API
+    expectedStatusCodes:
+      - 404
+  - name: OCR API (Staging)
+    url: https://$OCR_API_STAGING
+    expectedStatusCodes:
+      - 403
+  - name: OCR API (Production)
+    url: https://$OCR_API_PROD
+    expectedStatusCodes:
+      - 403
+  - name: CMS
+    url: https://$CMS_API
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.saladin.vn
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://cms.saladin.vn/assets/1ffbbea2-edf2-4062-93be-0c24dfdb5353
+  name: "Saladin Status"
+  introTitle: "**Saladin Status** is uptime monitor and status page."
+  introMessage: "Tự tin sống cùng Saladin"
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Admin
+      href: https://admin.saladin.vn
+    - title: Promotion
+      href: https://promo.saladin.vn
