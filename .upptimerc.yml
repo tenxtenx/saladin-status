@@ -31,12 +31,15 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.saladin.vn
   # baseUrl: /your-repo-name
-  logoUrl: https://cms.saladin.vn/assets/1ffbbea2-edf2-4062-93be-0c24dfdb5353
+  logoUrl: https://cms.saladin.vn/assets/6663ff9a-9f81-427b-815c-11b276c7d574
   name: "Saladin Status"
   introTitle: "**Saladin Status** is uptime monitor and status page."
-  introMessage: "Tự tin sống cùng Saladin"
+  introMessage: "All services and modules of Saladin system will be avaiable here."
   navbar:
     - title: Admin
       href: https://admin.saladin.vn
     - title: Promotion
       href: https://promo.saladin.vn
+
+i18n:
+  footer: Tự tin sống cùng [Saladin](https://saladin.vn)
