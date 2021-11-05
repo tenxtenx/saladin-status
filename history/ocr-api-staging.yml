@@ -1,7 +1,7 @@
 url: https://$OCR_API_STAGING
 status: up
 code: 403
-responseTime: 2331
-lastUpdated: 2021-11-04T23:13:25.174Z
+responseTime: 2305
+lastUpdated: 2021-11-05T23:13:19.171Z
 startTime: Tue Nov 02 2021 05:26:30 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
