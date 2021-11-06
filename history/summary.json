@@ -4,18 +4,20 @@
     "url": "https://staging-$BE_API",
     "icon": "https://favicons.githubusercontent.com/staging-",
     "slug": "backend-api-staging",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2446,
-    "timeDay": 5985,
-    "timeWeek": 2446,
-    "timeMonth": 2446,
-    "timeYear": 2446,
-    "dailyMinutesDown": {}
+    "time": 2263,
+    "timeDay": 4644,
+    "timeWeek": 2263,
+    "timeMonth": 2263,
+    "timeYear": 2263,
+    "dailyMinutesDown": {
+      "2021-11-06": 0
+    }
   },
   {
     "name": "Backend API (Production)",
@@ -106,7 +108,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2021-11-06": 16,
+      "2021-11-06": 429,
       "2021-11-05": 1440,
       "2021-11-04": 1440,
       "2021-11-03": 1440,
@@ -220,7 +222,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2021-11-06": 16,
+      "2021-11-06": 429,
       "2021-11-05": 1440,
       "2021-11-04": 1440,
       "2021-11-03": 1440,
@@ -244,7 +246,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2021-11-06": 16,
+      "2021-11-06": 429,
       "2021-11-05": 1440,
       "2021-11-04": 1440,
       "2021-11-03": 1440,
