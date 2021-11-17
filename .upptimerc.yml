@@ -24,7 +24,10 @@ sites:
     expectedStatusCodes:
       - 403
   - name: CMS
-    url: https://$CMS_API
+    url: https://$CMS_API/server/health
+    headers:
+      - "Content-Type: application/health+json"
+    body: '{ "status": "ok" }'
   - name: Mass Biker (Staging)
     url: https://staging-$MASS_BIKER_APP
   - name: Mass Biker (Production)
