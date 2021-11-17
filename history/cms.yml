@@ -1,7 +1,7 @@
-url: https://$CMS_API
-status: up
-code: 200
-responseTime: 1103
-lastUpdated: 2021-11-16T23:13:30.412Z
+url: https://$CMS_API/server/health
+status: down
+code: 401
+responseTime: 725
+lastUpdated: 2021-11-17T00:37:39.490Z
 startTime: Tue Nov 02 2021 05:26:35 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
