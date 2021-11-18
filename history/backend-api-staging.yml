@@ -1,7 +1,7 @@
 url: https://staging-$BE_API
-status: down
-code: 404
-responseTime: 635
-lastUpdated: 2021-11-18T10:59:06.251Z
+status: up
+code: 200
+responseTime: 797
+lastUpdated: 2021-11-18T11:15:12.676Z
 startTime: Tue Nov 02 2021 05:26:26 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
