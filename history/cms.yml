@@ -1,7 +1,7 @@
 url: https://$CMS_API/server/health
 status: down
 code: 401
-responseTime: 724
-lastUpdated: 2021-11-18T23:13:35.393Z
+responseTime: 983
+lastUpdated: 2021-11-19T23:13:17.568Z
 startTime: Tue Nov 02 2021 05:26:35 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
