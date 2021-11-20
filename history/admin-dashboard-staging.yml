@@ -1,7 +1,7 @@
 url: https://staging-$ADMIN_APP
 status: up
 code: 200
-responseTime: 141
-lastUpdated: 2021-11-19T23:13:18.808Z
+responseTime: 121
+lastUpdated: 2021-11-20T23:12:56.436Z
 startTime: Tue Nov 02 2021 05:47:18 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
